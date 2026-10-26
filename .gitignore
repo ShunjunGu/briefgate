@@ -8,6 +8,10 @@
 
 # Dependencies / runtime
 node_modules/
-npm-debug.log*
 .DS_Store
+
+# Noise logs (keep evidence install logs tracked)
+npm-debug.log*
 *.log
+!skills-install.log
+!npm-install.log

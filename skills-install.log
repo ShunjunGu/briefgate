@@ -1,0 +1,93 @@
+npm warn exec The following package was not found and will be installed: skills@1.5.18
+
+│
+●   cursor-cli  Agent detected — installing non-interactively
+[?25l│
+◇  Source: https://github.com/challengepost/learn-ai-basics.git
+[?25h[?25l│
+◒  Cloning repository…[1G[J◐  Cloning repository…[1G[J◓  Cloning repository…[1G[J◑  Cloning repository…[1G[J◒  Cloning repository…[1G[J◐  Cloning repository…[1G[J◓  Cloning repository…[1G[J◑  Cloning repository…[1G[J◒  Cloning repository….[1G[J◐  Cloning repository….[1G[J◇  Repository cloned
+[?25h[?25l│
+[1G[J◇  Found 6 skills
+[?25h│
+●  Installing all 6 skills
+│
+●  Installing to all 73 agents
+
+│
+◇  Installation Summary ─────────────────────────────────────────────────────╮
+│                                                                            │
+│  ./.agents/skills/1-start                                                  │
+│    universal: Amp, Antigravity, Antigravity CLI, Cline, Codex +14 more     │
+│    symlink → AiderDesk, AstrBot, Autohand Code CLI, Augment, IBM Bob +49   │
+│  more                                                                      │
+│                                                                            │
+│  ./.agents/skills/2-scope                                                  │
+│    universal: Amp, Antigravity, Antigravity CLI, Cline, Codex +14 more     │
+│    symlink → AiderDesk, AstrBot, Autohand Code CLI, Augment, IBM Bob +49   │
+│  more                                                                      │
+│                                                                            │
+│  ./.agents/skills/3-prd                                                    │
+│    universal: Amp, Antigravity, Antigravity CLI, Cline, Codex +14 more     │
+│    symlink → AiderDesk, AstrBot, Autohand Code CLI, Augment, IBM Bob +49   │
+│  more                                                                      │
+│                                                                            │
+│  ./.agents/skills/4-spec                                                   │
+│    universal: Amp, Antigravity, Antigravity CLI, Cline, Codex +14 more     │
+│    symlink → AiderDesk, AstrBot, Autohand Code CLI, Augment, IBM Bob +49   │
+│  more                                                                      │
+│                                                                            │
+│  ./.agents/skills/5-build                                                  │
+│    universal: Amp, Antigravity, Antigravity CLI, Cline, Codex +14 more     │
+│    symlink → AiderDesk, AstrBot, Autohand Code CLI, Augment, IBM Bob +49   │
+│  more                                                                      │
+│                                                                            │
+│  ./.agents/skills/6-ship                                                   │
+│    universal: Amp, Antigravity, Antigravity CLI, Cline, Codex +14 more     │
+│    symlink → AiderDesk, AstrBot, Autohand Code CLI, Augment, IBM Bob +49   │
+│  more                                                                      │
+│                                                                            │
+├────────────────────────────────────────────────────────────────────────────╯
+│
+◇  Security Risk Assessments ────────────────────────────────╮
+│                                                            │
+│           Gen               Socket            Snyk         │
+│  1-start  Safe              0 alerts          Low Risk     │
+│  2-scope  Safe              0 alerts          Low Risk     │
+│  3-prd    Safe              0 alerts          Low Risk     │
+│  4-spec   Safe              0 alerts          Low Risk     │
+│  5-build  Safe              0 alerts          Low Risk     │
+│  6-ship   Safe              0 alerts          Low Risk     │
+│                                                            │
+│  Details: https://skills.sh/challengepost/learn-ai-basics  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+[?25l│
+[1G[J◒  Installing skills…[1G[J◐  Installing skills…[1G[J◓  Installing skills…[1G[J◑  Installing skills…[1G[J◒  Installing skills…[1G[J◐  Installing skills…[1G[J◇  Installation complete
+[?25h
+│
+◇  Installed 6 skills ────────────────────────────────────────────────────╮
+│                                                                         │
+│  ✓ ./.agents/skills/1-start                                             │
+│    universal: Amp, Antigravity, Antigravity CLI, Cline, Codex +14 more  │
+│    symlinked: Claude Code, Eve                                          │
+│  ✓ ./.agents/skills/2-scope                                             │
+│    universal: Amp, Antigravity, Antigravity CLI, Cline, Codex +14 more  │
+│    symlinked: Claude Code, Eve                                          │
+│  ✓ ./.agents/skills/3-prd                                               │
+│    universal: Amp, Antigravity, Antigravity CLI, Cline, Codex +14 more  │
+│    symlinked: Claude Code, Eve                                          │
+│  ✓ ./.agents/skills/4-spec                                              │
+│    universal: Amp, Antigravity, Antigravity CLI, Cline, Codex +14 more  │
+│    symlinked: Claude Code, Eve                                          │
+│  ✓ ./.agents/skills/5-build                                             │
+│    universal: Amp, Antigravity, Antigravity CLI, Cline, Codex +14 more  │
+│    symlinked: Claude Code, Eve                                          │
+│  ✓ ./.agents/skills/6-ship                                              │
+│    universal: Amp, Antigravity, Antigravity CLI, Cline, Codex +14 more  │
+│    symlinked: Claude Code, Eve                                          │
+│                                                                         │
+├─────────────────────────────────────────────────────────────────────────╯
+
+│
+└  Done!  Review skills before use; they run with full agent permissions.
+
