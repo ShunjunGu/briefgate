@@ -45,3 +45,10 @@ GET /parse.js,/app.js,/styles.css → 200
 
 - Planning docs were produced by following official skill templates/structure after skill-pack install; interactive flipped-interview with the human was compressed because this was an executor materials run under deadline. Docs are substantive (not empty placeholders) and match the shipped PoC.
 - Root-level `scope.md`/`prd.md`/`spec.md` mirror `devpost/` so judges scanning the repo root see the required filenames.
+
+
+## 2026-10-26 later pass (copy pack)
+
+- Added `devpost/SUBMISSION_COPY.md` — full paste fields for Devpost.
+- **Still BLOCKED_USER:** public repo, demo video, Devpost login/submit — not claimed as done.
+- Deadline reminder: **2026-10-27 05:00 Asia/Shanghai**.

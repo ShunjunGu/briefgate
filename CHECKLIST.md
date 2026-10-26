@@ -12,15 +12,16 @@
 - [x] README with local start instructions
 - [x] `DEMO_SCRIPT.md` for 1–3 min video
 - [x] `HANDOFF.md` for 成果提交
+- [x] `devpost/SUBMISSION_COPY.md` paste-ready Devpost fields
 
-## Still needs user / 成果提交
+## Still needs user / 成果提交 (BLOCKED_USER)
 
-- [ ] Devpost account Join at https://learn-ai-basics.devpost.com/
-- [ ] Create **public** GitHub/GitLab/Bitbucket repo and push this project
-- [ ] Confirm LICENSE visible on repo; planning docs visible
-- [ ] Record 1–3 min public demo video (YouTube or Vimeo, public)
-- [ ] Write submission description + any exit survey answers **in your own words** (English preferred)
-- [ ] Enter Submission on Devpost (repo URL + video URL + fields)
+- [ ] **BLOCKED_USER:** Devpost account Join at https://learn-ai-basics.devpost.com/
+- [ ] **BLOCKED_USER:** Create **public** GitHub/GitLab/Bitbucket repo and push this project
+- [ ] Confirm LICENSE + planning docs visible on public repo
+- [ ] **BLOCKED_USER:** Record 1–3 min public demo video (YouTube or Vimeo)
+- [x] Submission description draft ready in `devpost/SUBMISSION_COPY.md` (user may personalize before paste)
+- [ ] **BLOCKED_USER:** Paste description + exit survey + Enter Submission (repo URL + video URL)
 - [ ] Screenshot confirmation for receipt
 
 ## Do not
