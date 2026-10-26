@@ -1,0 +1,13 @@
+# Devpost Learn — keep personal learning context out of commits by default
+/devpost/learner-profile.md
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies / runtime
+node_modules/
+npm-debug.log*
+.DS_Store
+*.log

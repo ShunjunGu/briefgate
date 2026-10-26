@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BriefGate — handoff cards from messy notes</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div>
+        <h1>BriefGate</h1>
+        <p class="tag">Messy agent notes → paste-ready handoff card</p>
+      </div>
+      <p class="badge">Local only · no API keys</p>
+    </header>
+
+    <main class="grid">
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Raw notes</h2>
+          <button type="button" id="sampleBtn" class="ghost">Load sample</button>
+        </div>
+        <textarea
+          id="raw"
+          rows="16"
+          placeholder="Paste session notes here. Tip: start lines with Done: / Blocked: / Need user: / Next:"
+        ></textarea>
+        <div class="actions">
+          <button type="button" id="buildBtn" class="primary">Build card</button>
+          <button type="button" id="clearBtn" class="ghost">Clear</button>
+        </div>
+        <p id="msg" class="msg" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="panel card">
+        <div class="panel-head">
+          <h2>Handoff card</h2>
+          <button type="button" id="copyBtn" class="primary">Copy handoff</button>
+        </div>
+
+        <label class="bucket done">
+          <span class="chip">Done</span>
+          <textarea id="done" rows="3"></textarea>
+        </label>
+        <label class="bucket blocked">
+          <span class="chip">Blocked</span>
+          <textarea id="blocked" rows="3"></textarea>
+        </label>
+        <label class="bucket need">
+          <span class="chip">Need-user</span>
+          <textarea id="needUser" rows="3"></textarea>
+        </label>
+        <label class="bucket next">
+          <span class="chip">Next</span>
+          <textarea id="next" rows="3"></textarea>
+        </label>
+      </section>
+    </main>
+
+    <footer>
+      Built for Devpost Learn · Build With AI: Basics · planning docs in
+      <code>scope.md</code> / <code>prd.md</code> / <code>spec.md</code>
+    </footer>
+
+    <script src="/parse.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>

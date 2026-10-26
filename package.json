@@ -1,0 +1,18 @@
+{
+  "name": "briefgate",
+  "version": "1.0.0",
+  "description": "Turn messy agent/session notes into a paste-ready handoff card (Done / Blocked / Need-user / Next).",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
